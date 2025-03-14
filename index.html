@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Boulevard</title>
+
+    <!--LINK TO STYLES-->
+    <link rel="stylesheet" href="style.css"> 
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo2.png" width="100px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Love and Elegance in <br> Every Bloom</h1>
+                    <p>Discover the art of elegant floristry with us. <br>Visit our shop or enjoy the convenience of ordering online or by phone.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Featured Categories
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.png">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-1.png">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-1.png">
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!--Featured Products-->
+    <div class="small-container">
+        <h2 class="title" style="margin-top: 50px;">Featured Products</h2>
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.png" alt="test"></a>
+                <h4>Bouquet</h4>
+                <p>₱1200.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Special Offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/product-1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available on Bloom Boulevard</p>
+                    <h1>Product Name</h1>
+                    <small>Product description<br></small>
+                    <a href="product-details.html" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonial (Discontinued, do not delete, transfer to another webpage)
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!--Brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-gcash.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paymaya.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="images/logo2.png" width="100px" height="100px">
+                    <p>Love and Elegance in Every Bloom</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Site Links</h3>
+                    <ul>
+                        <li><a href="products.html">All Collections</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li><b>Phone:</b></li>
+                        <li>PH - +63 XXX XXX XXXX</li>
+                        <li><b>Email:</b></li>
+                        <li>bloomboulevard@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2025 - Bloom Boulevard</p>
+        </div>
+    </div>
+
+    <!--javascript for toggle menu-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            } else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+</html>
